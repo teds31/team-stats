@@ -1,8 +1,8 @@
 let team = {
   _players: [
-    {firstName: "Teddy",
-    lastName: "Stanowski",
-    age: 31,
+    {_firstName: "Teddy",
+    _lastName: "Stanowski",
+    _age: 31,
     get players(){
     	return this._players;
   	},
@@ -10,9 +10,9 @@ let team = {
   ],
 
   _games: [{
-    opponent: 'Rangers',
-    teamPoints: 3,
-    opponentPoints: 2,
+    _opponent: 'Rangers',
+    _teamPoints: 3,
+    _opponentPoints: 2,
     get games(){
       return this._games;
     },
